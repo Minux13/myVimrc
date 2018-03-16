@@ -1,26 +1,28 @@
-set tabstop=4
 set nu
 set smartindent
 
-imap ññ <c-o>:
-imap ñw <c-o>w
-imap ñb <esc>bi
-imap ña <c-o>A
-imap ñi <c-o>I
-imap ño <c-o>o
-imap ñf <c-o>/
-imap ñd <c-o>?
-imap ñu <c-o>u
-imap ñp <c-o>p
-imap ñpp <c-o>"+p
-imap ñ <Esc>
-imap <c-l> <Esc>la
-imap <c-h> <Esc>ha
-imap <c-m> <c-o>X
+inoremap ññ <c-o>:
 
-imap <A-j> 4|imap <A-k> 5|imap <A-l> 6|imap <A-n> 1|imap <A-m> 2|imap <A-,> 3|imap <A-u> 7|imap <A-i> 8|imap <A-o> 9|imap <A-p> 0
-map <A-j> 4|map <A-k> 5|map <A-l> 6|map <A-n> 1|map <A-m> 2|map <A-,> 3|map <A-u> 7|map <A-i> 8|map <A-o> 9|map <A-p> 0
-cmap <A-j> 4|cmap <A-k> 5|cmap <A-l> 6|cmap <A-n> 1|cmap <A-m> 2|cmap <A-,> 3|cmap <A-u> 7|cmap <A-i> 8|cmap <A-o> 9|cmap <A-p> 0
+inoremap ña <c-o>A
+inoremap ñi <c-o>I
+inoremap ño <c-o>o
+inoremap ñO <c-o>O
+inoremap ñf <c-o>/
+inoremap ñd <c-o>?
+inoremap ñu <c-o>u
+inoremap ñp <c-o>p
+inoremap ñpp <c-o>"+p
+inoremap ñ <Esc>
+inoremap <c-l> <Esc>la
+inoremap <c-h> <Esc>ha
+inoremap <c-u> <Bs>
+inoremap <c-i> <Del>
+inoremap <c-b> <Esc>bi
+inoremap <c-m> <Esc>lwi
+
+inoremap <A-j> 4|imap <A-k> 5|imap <A-l> 6|imap <A-n> 1|imap <A-m> 2|imap <A-,> 3|imap <A-u> 7|imap <A-i> 8|imap <A-o> 9|imap <A-p> 0
+noremap <A-j> 4|map <A-k> 5|map <A-l> 6|map <A-n> 1|map <A-m> 2|map <A-,> 3|map <A-u> 7|map <A-i> 8|map <A-o> 9|map <A-p> 0
+cnoremap <A-j> 4|cmap <A-k> 5|cmap <A-l> 6|cmap <A-n> 1|cmap <A-m> 2|cmap <A-,> 3|cmap <A-u> 7|cmap <A-i> 8|cmap <A-o> 9|cmap <A-p> 0
 
 
 map ñ :
