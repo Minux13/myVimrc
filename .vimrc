@@ -19,7 +19,7 @@ inoremap <c-i> <Del>
 inoremap <c-b> <Esc>bi
 inoremap <c-m> <Esc>lwi
 inoremap <C-k> <Esc>vF<lyea></<Esc>pa><Esc>F<i
-inoremap yy <esc>byea></><esc>hpF>a
+inoremap yy <esc>byeea></><esc>hpF>a
 
 inoremap <A-j> 4|imap <A-k> 5|imap <A-l> 6|imap <A-n> 1|imap <A-m> 2|imap <A-,> 3|imap <A-u> 7|imap <A-i> 8|imap <A-o> 9|imap <A-p> 0
 noremap <A-j> 4|map <A-k> 5|map <A-l> 6|map <A-n> 1|map <A-m> 2|map <A-,> 3|map <A-u> 7|map <A-i> 8|map <A-o> 9|map <A-p> 0
