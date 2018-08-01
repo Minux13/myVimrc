@@ -15,8 +15,7 @@ inoremap <c-h> <Esc>ha
 inoremap <c-u> <Bs>
 inoremap <c-b> <Esc>bi
 inoremap <c-m> <Esc>lwi
-inoremap <C-k> <Esc>vF<lyea></<Esc>pa><Esc>F<i
-inoremap ñc <esc>byeea></><esc>hpF>a
+inoremap <C-k> <esc>vBlyhea></><esc>hpF>a
 
 inoremap kl <esc>A",<esc>o<esc>i
 inoremap kj <esc>A/\<esc>o<esc>i<tab><tab><esc>a
