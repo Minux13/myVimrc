@@ -20,6 +20,10 @@ inoremap <c-b> <Esc>bi
 inoremap ñm <esc>vBlyhea></><esc>hpF>a
 inoremap ñn <esc>vBlyhea id="" class=""></><esc>hpF>a
 inoremap ñb <br>
+inoremap ñc console.log();<esc>hi
+inoremap ñC console.log("");<esc>2hi
+vnoremap ñy "+y
+vnoremap ñp "+p
 
 inoremap kl <esc>A",<esc>o<esc>i
 inoremap kj <esc>A/\<esc>o<esc>i<tab><tab><esc>a
