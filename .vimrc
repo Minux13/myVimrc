@@ -10,8 +10,8 @@ inoremap ñO <c-o>O
 inoremap ñf <c-o>/
 inoremap ñd <c-o>?
 inoremap ñu <c-o>u
-inoremap ñp <c-o>p
-inoremap ñpp <c-o>"+p
+inoremap ñp <esc>pa
+inoremap ñpp <esc>"+pa
 inoremap jj <enter>
 inoremap <c-j> <c-o>j
 inoremap <c-k> <c-o>k
