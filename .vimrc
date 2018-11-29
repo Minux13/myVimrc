@@ -1,5 +1,7 @@
 set nu
 set smartindent
+set tabstop=4
+set expandtab
 
 inoremap ña <c-o>A
 inoremap ñi <c-o>I
